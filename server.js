@@ -29,7 +29,7 @@ const updateStockPrices = async () => {
 };
 
 // Setting up timer to update stock prices every 10 seconds
-setInterval(updateStockPrices, 1000);
+setInterval(updateStockPrices, 10000);
 
 
 
